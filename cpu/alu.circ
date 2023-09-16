@@ -752,8 +752,6 @@ end TCL_Generic;
     <comp loc="(520,480)" name="OR_2bit"/>
     <comp loc="(520,540)" name="OR_2bit"/>
     <comp loc="(520,600)" name="OR_2bit"/>
-    <comp loc="(520,600)" name="OR_2bit"/>
-    <comp loc="(520,660)" name="OR_2bit"/>
     <comp loc="(520,660)" name="OR_2bit"/>
     <wire from="(190,480)" to="(190,520)"/>
     <wire from="(190,480)" to="(300,480)"/>
@@ -920,8 +918,8 @@ end TCL_Generic;
     <comp loc="(530,440)" name="OR_8bit"/>
     <comp loc="(530,500)" name="OR_8bit"/>
     <comp loc="(530,560)" name="OR_8bit"/>
-    <comp loc="(530,560)" name="OR_8bit"/>
     <comp loc="(530,620)" name="OR_8bit"/>
+    <comp loc="(540,570)" name="OR_8bit"/>
     <wire from="(230,440)" to="(230,480)"/>
     <wire from="(230,440)" to="(310,440)"/>
     <wire from="(230,490)" to="(310,490)"/>
