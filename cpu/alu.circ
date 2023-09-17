@@ -332,7 +332,6 @@ end TCL_Generic;
     <comp lib="0" loc="(710,460)" name="Bit Extender">
       <a name="in_width" val="1"/>
       <a name="out_width" val="32"/>
-      <a name="type" val="input"/>
     </comp>
     <comp lib="0" loc="(930,840)" name="Splitter">
       <a name="appear" val="center"/>
