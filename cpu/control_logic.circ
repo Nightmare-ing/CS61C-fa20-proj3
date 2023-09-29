@@ -484,11 +484,15 @@ end TCL_Generic;
       <a name="facing" val="north"/>
       <a name="label" val="S"/>
     </comp>
-    <comp lib="0" loc="(550,2100)" name="Tunnel">
+    <comp lib="0" loc="(550,2090)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(550,2140)" name="Tunnel">
+    <comp lib="0" loc="(550,2120)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="J"/>
+    </comp>
+    <comp lib="0" loc="(550,2150)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="AUIPC"/>
     </comp>
@@ -856,7 +860,9 @@ end TCL_Generic;
     <comp lib="1" loc="(640,1020)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(640,2120)" name="OR Gate"/>
+    <comp lib="1" loc="(640,2120)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
     <comp lib="1" loc="(640,2250)" name="OR Gate">
       <a name="inputs" val="5"/>
     </comp>
@@ -1280,8 +1286,9 @@ end TCL_Generic;
     <wire from="(550,1890)" to="(580,1890)"/>
     <wire from="(550,1920)" to="(570,1920)"/>
     <wire from="(550,2000)" to="(550,2020)"/>
-    <wire from="(550,2100)" to="(590,2100)"/>
-    <wire from="(550,2140)" to="(590,2140)"/>
+    <wire from="(550,2090)" to="(560,2090)"/>
+    <wire from="(550,2120)" to="(590,2120)"/>
+    <wire from="(550,2150)" to="(560,2150)"/>
     <wire from="(550,2190)" to="(570,2190)"/>
     <wire from="(550,2220)" to="(560,2220)"/>
     <wire from="(550,2250)" to="(590,2250)"/>
@@ -1294,6 +1301,10 @@ end TCL_Generic;
     <wire from="(550,740)" to="(550,800)"/>
     <wire from="(550,740)" to="(610,740)"/>
     <wire from="(550,800)" to="(570,800)"/>
+    <wire from="(560,2090)" to="(560,2100)"/>
+    <wire from="(560,2100)" to="(590,2100)"/>
+    <wire from="(560,2140)" to="(560,2150)"/>
+    <wire from="(560,2140)" to="(590,2140)"/>
     <wire from="(560,2220)" to="(560,2240)"/>
     <wire from="(560,2240)" to="(590,2240)"/>
     <wire from="(560,2260)" to="(560,2280)"/>
