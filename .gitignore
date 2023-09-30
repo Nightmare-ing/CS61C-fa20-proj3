@@ -31,6 +31,7 @@
 # Executables
 *.exe
 # *.out
+tests/part_b/custom/*/*.out
 a.out
 *.app
 *.i*86
@@ -252,3 +253,6 @@ $RECYCLE.BIN/
 # lab13 program
 server_basic server_process
 **/*._sobel.bmp
+
+# custom test .circ files
+tests/part_b/custom/*.circ
