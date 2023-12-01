@@ -1,5 +1,5 @@
 # CS61CPU
 
-Look ma, I made a CPU! Here's what I did:
+My solution for CS61C fa20 version project3, a RISC-V CPU.
 
--
+
